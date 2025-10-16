@@ -27,7 +27,7 @@ def missingNum(arr):
     return xor
 
 arr=[1,2,3,5,6,8,10]
-target=14
+
 missing=missingNum(arr); 
 print("missing number is: ",missing);
 
@@ -37,7 +37,7 @@ def longestSum(arr1):
         for j in range(i,len(arr1)):
             sum+=arr1[j]
             
-
+target=14
 def twosum(target,arr):
     left=0
     right=len(arr)-1
